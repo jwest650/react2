@@ -1,0 +1,55 @@
+nav {
+    background-color: brown;
+    color: white;
+}
+nav > h3 {
+    font-weight: bolder;
+}
+nav li a {
+    color: white;
+}
+
+main {
+    margin: 3rem 0 2rem 0;
+}
+
+.image {
+    object-fit: cover;
+}
+.image > img {
+    height: 420px;
+    border-radius: 15px;
+}
+main > h2 {
+    margin-bottom: 50px;
+}
+
+.cards div {
+    margin: 20px;
+}
+
+section h3,
+p {
+    margin: 10px;
+}
+
+.card img {
+    padding: 5px;
+}
+
+footer {
+    padding-top: 12px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    height: 50px;
+}
+
+.row {
+    height: fit-content;
+}
+
+.parent-carousel img {
+    object-fit: cover;
+    height: 400px;
+}
